@@ -10,21 +10,6 @@ const weatherData = {
         humidity: 75,
         description: "Cloudy",
     },
-    "Tamilnadu": {
-        temperature: 22,
-        humidity: 60,
-        description: "Sunny",
-    },
-    "India": {
-        temperature: 42,
-        humidity: 50,
-        description: "Sunny",
-    },
-    "Delhi": {
-        temperature: 32,
-        humidity: 68,
-        description: "Sunny",
-    },
     "Tokyo": {
         temperature: 18,
         humidity: 80,
@@ -86,3 +71,4 @@ document.getElementById('cityInput').addEventListener('keypress', function (e) {
         getWeather();
     }
 });
+
